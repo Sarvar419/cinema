@@ -98,6 +98,8 @@ button {
 .nav-bar {
     width: 96px;
     height: 900px;
+    top: 32px;
+    /* left: 32px; */
     position: relative;
     flex-shrink: 0;
     border-radius: 20px;
@@ -107,6 +109,7 @@ button {
     flex-direction: column;
     align-items: center;
     padding: 35px 0px;
+
 }
 
 .nav-list {
@@ -279,11 +282,14 @@ button {
     align-items: center;
     justify-content: start;
     position: relative;
-    max-width: 1440px;
+    /* max-width: 1440px; */
     width: 100%;
     column-gap: 40px;
     animation: scroll 20s linear infinite;
     padding-bottom: 10px;
+    column-gap: 40px;
+    row-gap: 60px;
+    flex-wrap: wrap;
 }
 .recommended-movie {
     height: 174px;
