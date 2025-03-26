@@ -235,7 +235,7 @@ function signup() {
         return;
     }
     alert("Sign-up Qo'shildi!");
-    location = "http://127.0.0.1:5500/Home/main.html"
+    location = "http://main.html"
 }
 const movies = document.querySelector(".recommended-movies");
 let moviesArr = "";
